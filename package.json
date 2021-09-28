@@ -1,0 +1,36 @@
+{
+  "name": "pres_app_server",
+  "version": "0.0.0",
+  "description": "app server of pres_app",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "commit-all": "git add . && cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalinnikov2n/pres_app_server.git"
+  },
+  "keywords": [
+    "mongo",
+    "express",
+    "ts",
+    "GraphQl",
+    "node"
+  ],
+  "author": "@kalinnikov2n",
+  "license": "ISC",
+  "dependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/Kalinnikov2n/pres_app_server/issues"
+  },
+  "homepage": "https://github.com/Kalinnikov2n/pres_app_server#readme"
+}
