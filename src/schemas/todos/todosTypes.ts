@@ -4,7 +4,7 @@ export const todosTypes = gql`
   type TodoItem {
     id: String
     title: String
-    desciption: String
+    description: String
   }
 
   type TodosListResult {
@@ -21,12 +21,12 @@ export const todosTypes = gql`
 
   input TodoCreateParams {
     title: String
-    desciption: String
+    description: String
   }
 
   input TodoUpdateParams {
     id: String
     title: String
-    desciption: String
+    description: String
   }
 `

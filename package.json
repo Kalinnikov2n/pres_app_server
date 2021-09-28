@@ -45,6 +45,7 @@
     "http-errors": "^1.7.3",
     "immutable": "^4.0.0-rc.12",
     "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.8",
     "morgan": "^1.9.1",
     "passport": "^0.4.0",
     "passport-http-bearer": "^1.0.1",
